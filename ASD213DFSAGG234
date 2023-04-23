@@ -2410,3 +2410,5 @@ function verny.create(Settings)
 end
 
 verny.call()
+ConfigModule:CreateFile()
+ConfigModule:LoadFile()
